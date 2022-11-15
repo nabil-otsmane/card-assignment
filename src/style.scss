@@ -21,8 +21,7 @@ $sp-unit: 0.35rem;
 
 .f-screen {
     margin: 1rem 0;
-    min-height: 100vh;
-    // overflow: hidden;
+    min-height: calc(100vh - 2rem); /* avoid useless scrolling with added margin and paddings */
     display: grid;
 }
 
