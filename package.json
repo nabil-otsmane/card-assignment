@@ -1,0 +1,17 @@
+{
+  "name": "vanilla_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass -w --load-path=node_modules src:dist --style=compressed",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.56.0",
+    "vanilla-framework": "^3.8.1"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
